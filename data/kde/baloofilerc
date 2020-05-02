@@ -1,0 +1,10 @@
+[Basic Settings]
+Indexing-Enabled=false
+
+[General]
+dbVersion=2
+exclude filters=*.gb,*~,conftest,CMakeFiles,*.omf,*.fasta,*.lo,.npm,*.vhd,*.gcode,.histfile.*,*.aux,*.a,*.vdi,.yarn-cache,*.la,confdefs.h,*.rej,*.fastq,*.vm*,*.gmo,*.so,*.class,*.pc,.pch,lost+found,*.db,node_modules,CTestTestfile.cmake,*.vhdx,libtool,.hg,confstat,*.init,CMakeCache.txt,CMakeTmpQmake,ui_*.h,*.moc,*.rcore,*.qmlc,*.pyc,.obj,*.part,po,*.img,.svn,*.jsc,CMakeTmp,qrc_*.cpp,*.nvram,*.sql,autom4te,*.tmp,*.fq,_darcs,lzo,moc_*.cpp,*.fna,*.vbox*,*.ini,*.faa,.xsession-errors*,*.loT,*.orig,.moc,nbproject,*.pyo,core-dumps,node_packages,.uic,__pycache__,*.swap,*.vmdk,*.sql.gz,Makefile.am,vbox.log,*.map,litmain.sh,*.qrc,.git,*.po,*.elc,*.gbff,.bzr,*.o,config.status,*.qcow2,CVS,*.csproj,.yarn,cmake_install.cmake,*.m4
+exclude filters version=5
+first run=false
+folders[$e]=$HOME/
+only basic indexing=true

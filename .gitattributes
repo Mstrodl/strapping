@@ -1,0 +1,9 @@
+data/kde/kdeconnect/** filter=git-crypt diff=git-crypt
+data/ssh/* filter=git-crypt diff=git-crypt
+data/kde/kdeglobals filter=git-crypt diff=git-crypt
+data/kde/ksmserverrc filter=git-crypt diff=git-crypt
+data/kde/krunnerrc filter=git-crypt diff=git-crypt
+data/kde/plasmarc filter=git-crypt diff=git-crypt
+data/kde/plasmanotifyrc filter=git-crypt diff=git-crypt
+# Blocklists...
+data/hh2/config.json filter=git-crypt diff=git-crypt

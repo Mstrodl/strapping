@@ -1,0 +1,1 @@
+installSystem plasma-desktop kdeconnect
