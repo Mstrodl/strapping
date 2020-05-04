@@ -1,2 +1,32 @@
+[1]
+Description=Chromium Picture-in-picture
+above=true
+aboverule=2
+acceptfocus=false
+acceptfocusrule=2
+clientmachine=localhost
+clientmachinematch=0
+title=Picture-in-picture
+titlematch=1
+types=1
+wmclass=
+wmclasscomplete=false
+wmclassmatch=1
+
+[2]
+Description=Window settings for discord
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=2
+title=Discord$
+titlematch=3
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=discord
+wmclasscomplete=false
+wmclassmatch=1
+
 [General]
-count=0
+count=2
