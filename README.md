@@ -1,6 +1,4 @@
-# Strapping!
-<!-- TODO: Make a tuxedo logo!!! -->
-Dotfiles with class
+![logo](https://github.com/Mstrodl/strapping/raw/master/strapping-text.svg)
 ````
 
 ## Installing
