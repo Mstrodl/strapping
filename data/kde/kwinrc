@@ -92,3 +92,8 @@ ElectricBorderDelay=150
 ElectricBorderMaximize=true
 ElectricBorderTiling=true
 ElectricBorders=0
+
+[org.kde.kdecoration2]
+ButtonsOnRight=HIAXN
+library=org.kde.breeze
+theme=Breeze

@@ -1,23 +1,94 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum
+
 [1]
+Description=Window settings for minecraft
+clientmachinematch=0
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+types=1
+wmclass=^minecraft .+
+wmclassmatch=3
+
+[2]
+Description=Window settings for scrcpy
+acceptfocus=false
+clientmachinematch=0
+maximizevert=true
+maximizevertrule=3
+noborder=true
+noborderrule=3
+position=938,0
+positionrule=3
+size=342,684
+sizerule=3
+title=Pixel 3a XL
+titlematch=1
+types=1
+wmclass=scrcpy
+wmclassmatch=1
+
+[3]
+Description=Window settings for gstreamer
+clientmachinematch=0
+noborder=true
+noborderrule=3
+size=385,684
+sizerule=3
+types=1
+wmclass=uxplay gstreamer
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=Window settings for gmod
+position=0,0
+positionrule=2
+types=1
+wmclass=gmod
+wmclassmatch=1
+
+[5]
+Description=Window settings for celeste.bin.x86_64
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+noborder=true
+noborderrule=3
+title=Celeste
+titlematch=1
+types=1
+wmclass=celeste.bin.x86_64
+wmclassmatch=1
+
+[6]
+Description=Window settings for virt-manager
+clientmachine=localhost
+noborder=true
+noborderrule=4
+title=win10 on QEMU/KVM
+titlematch=1
+types=1
+wmclass=virt-manager
+wmclassmatch=1
+
+[7]
 Description=Chromium Picture-in-picture
 above=true
 aboverule=2
-acceptfocus=false
 acceptfocusrule=2
 clientmachine=localhost
-clientmachinematch=0
 title=Picture-in-picture
 titlematch=1
 types=1
-wmclass=
-wmclasscomplete=false
 wmclassmatch=1
 
-[2]
+[8]
 Description=Window settings for discord
 clientmachine=localhost
-clientmachinematch=0
-noborder=false
 noborderrule=2
 title=Discord$
 titlematch=3
@@ -25,8 +96,7 @@ types=1
 windowrole=browser-window
 windowrolematch=1
 wmclass=discord
-wmclasscomplete=false
 wmclassmatch=1
 
 [General]
-count=2
+count=8

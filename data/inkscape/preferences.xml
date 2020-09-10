@@ -132,14 +132,15 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="12.125"
-         height="4.5"
+         width="930.346"
+         height="200"
          rx="0"
          ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1">
+         usecurrent="1"
+         persp="perspective955">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -171,14 +172,14 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="0.20779"
-         ry="0.161614" />
+         rx="5.94386"
+         ry="34.1353" />
       <eventcontext
          id="star"
-         magnitude="5"
+         magnitude="3"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.5"
+         proportion="0.560201"
          rounded="0"
          randomized="0"
          isflatsided="0" />
@@ -199,14 +200,16 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         average_all_sketches="1" />
+         average_all_sketches="1"
+         pressure="0"
+         freehand-mode="2" />
       <eventcontext
          id="pen"
          mode="drag"
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         freehand-mode="0" />
+         freehand-mode="2" />
     </group>
     <eventcontext
        id="calligraphic"
@@ -336,6 +339,7 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
+       use_svg2="1"
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1"
        align_mode="1">
@@ -347,7 +351,6 @@
        id="nodes"
        selcue="1"
        gradientdrag="1"
-       highlight_color="4278190335"
        pathflash_enabled="1"
        pathflash_unselected="0"
        pathflash_timeout="500"
@@ -359,10 +362,11 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="22.083"
+       y="18.7336"
        edit_clipping_paths="0"
-       edit_masks="0" />
+       edit_masks="0"
+       highlight_color="4278190335" />
     <eventcontext
        id="tweak"
        selcue="0"
@@ -578,11 +582,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="1"
+       page="0"
        x="0"
        y="0"
-       w="332"
-       h="497"
+       w="397"
+       h="502"
        visible="1"
        state="2"
        placement="5" />
@@ -603,9 +607,9 @@
        align-to="1"
        x="0"
        y="0"
-       w="332"
-       h="497"
-       visible="1"
+       w="397"
+       h="538"
+       visible="0"
        state="2"
        placement="5" />
     <group
@@ -625,8 +629,8 @@
        id="spellcheck"
        w="200"
        h="250"
-       lang="en_US"
-       ignorenumbers="1" />
+       ignorenumbers="1"
+       lang="en_US" />
     <group
        id="documentoptions"
        state="1"
@@ -635,10 +639,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1270"
-       y="21"
-       w="691"
-       h="622"
+       x="450"
+       y="362"
+       w="200"
+       h="200"
        visible="0"
        placement="1" />
     <group
@@ -649,11 +653,13 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="41"
+       page="44"
        x="0"
        y="32"
        w="1366"
-       h="703" />
+       h="703"
+       visible="0"
+       placement="1" />
     <group
        id="gradienteditor" />
     <group
@@ -682,8 +688,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="332"
-       h="497"
+       w="397"
+       h="502"
        visible="1"
        state="2"
        placement="5">
@@ -692,14 +698,14 @@
          value="drawing" />
       <group
          id="defaultxdpi"
-         value="1609.09" />
+         value="1153.74" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/mary/imagedump/vector"
+       path="/home/mary/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -710,15 +716,17 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/mary/projects/portfolio/src/art/" />
+       path="/home/mary/Downloads/" />
     <group
        id="import"
        enable_preview="1"
-       path="/home/mary/RemoteLearning/Chemistry/"
+       path="/home/mary/Downloads/"
        ask="1"
+       ask_svg="1"
        link="link"
        scale="auto"
-       forcexdpi="0" />
+       forcexdpi="0"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -798,6 +806,16 @@
          id=""
          panel_size="0" />
     </group>
+    <group
+       placement="5"
+       state="2"
+       visible="0"
+       h="483"
+       w="397"
+       y="0"
+       x="0"
+       dialogmode="0"
+       id="livepatheffect" />
   </group>
   <group
      id="printing">
@@ -810,7 +828,8 @@
   <group
      id="options"
      dpifixbackup="1"
-     dpiupdatemethod="0">
+     dpiupdatemethod="0"
+     onimport="0">
     <group
        id="renderingcache"
        size="64" />
@@ -1063,10 +1082,10 @@
          origin_y="0.0"
          spacing_x="1.0"
          spacing_y="1.0"
-         color="1061158688"
-         empcolor="1061158720"
          empspacing="5"
-         dotted="0" />
+         dotted="0"
+         color="1061158688"
+         empcolor="1061158720" />
       <group
          id="axonom"
          units="mm"
@@ -1075,9 +1094,9 @@
          spacing_y="1.0"
          angle_x="30.0"
          angle_z="30.0"
+         empspacing="5"
          color="1061158688"
-         empcolor="1061158720"
-         empspacing="5" />
+         empcolor="1061158720" />
     </group>
     <group
        id="workarounds"
@@ -1085,6 +1104,15 @@
        partialdynamic="0" />
     <group
        id="rendering" />
+    <group
+       id="svgeditor"
+       value="inkscape" />
+    <group
+       id="dash"
+       scale="1" />
+    <group
+       id="font"
+       unitType="2" />
   </group>
   <group
      id="extensions"
@@ -1101,20 +1129,22 @@
      org.inkscape.input.gdkpixbuf.png.link="link"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.resolution="96"
-     org.inkscape.output.pdf.cairorenderer.bleed="0" />
+     org.inkscape.output.pdf.cairorenderer.bleed="0"
+     org.inkscape.input.svg.scale="auto" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:'Sweet Hansan';font-family:'Sweet Hansan';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;fill:#2affd5;stroke:none;fill-opacity:1;stroke-width:2.89133858;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-opacity:1;font-size:16px;text-anchor:middle;text-align:center;opacity:1">
+     style="line-height:1.25;-inkscape-font-specification:'Trebuchet MS';font-family:'Trebuchet MS';fill:#f2a36b;stroke-width:2.08251969;stroke-linecap:round;font-size:26.66666667px;text-anchor:middle;text-align:center;stroke-linejoin:bevel;">
     <group
-       width="462"
-       height="405"
-       x="892"
-       y="0"
+       width="703"
+       height="480"
+       x="289"
+       y="333"
        fullscreen="0"
        id="geometry"
        maximized="1" />
     <group
-       id="XYfront" />
+       id="XYfront"
+       style="fill:#2ab5c6;stroke-width:1.0015748;stroke:#000000" />
     <group
        id="XYrear" />
     <group
@@ -1122,7 +1152,8 @@
     <group
        id="XZbottom" />
     <group
-       id="YZleft" />
+       id="YZleft"
+       style="fill:#046480;stroke:#000000;stroke-width:1.0015748" />
     <group
        id="YZright" />
   </group>
@@ -1209,4 +1240,13 @@
   <group
      id="ui"
      language="" />
+  <group
+     menuIcons_objects="0"
+     menuIcons_layers="0"
+     menuIcons_canvas="0"
+     iconTheme="breeze-dark"
+     gtkTheme="Breeze-Dark"
+     defaultIconTheme="breeze-dark"
+     defaultTheme="Breeze-Dark"
+     id="theme" />
 </inkscape>
