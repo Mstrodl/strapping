@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="930.346"
-         height="200"
+         width="2748.12"
+         height="449.377"
          rx="0"
          ry="0" />
       <eventcontext
@@ -172,8 +172,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="5.94386"
-         ry="34.1353" />
+         rx="2.75655"
+         ry="4.78322" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -331,7 +331,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -362,8 +362,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="22.083"
-       y="18.7336"
+       x="399.713"
+       y="321.443"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -559,7 +559,7 @@
   </group>
   <group
      id="colorselector"
-     page="3" />
+     page="0" />
   <group
      id="embedded">
     <group
@@ -586,10 +586,10 @@
        x="0"
        y="0"
        w="397"
-       h="502"
+       h="553"
        visible="1"
        state="2"
-       placement="5" />
+       placement="1" />
     <group
        id="filtereffects" />
     <group
@@ -607,8 +607,8 @@
        align-to="1"
        x="0"
        y="0"
-       w="397"
-       h="538"
+       w="328"
+       h="487"
        visible="0"
        state="2"
        placement="5" />
@@ -621,8 +621,12 @@
        panel_border="0"
        x="0"
        y="0"
-       w="346"
-       h="266" />
+       w="320"
+       h="260"
+       panedpos="135"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="find" />
     <group
@@ -639,10 +643,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="450"
-       y="362"
-       w="200"
-       h="200"
+       x="730"
+       y="0"
+       w="636"
+       h="656"
        visible="0"
        placement="1" />
     <group
@@ -653,9 +657,9 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="44"
+       page="48"
        x="0"
-       y="32"
+       y="29"
        w="1366"
        h="703"
        visible="0"
@@ -689,23 +693,23 @@
        x="0"
        y="0"
        w="397"
-       h="502"
-       visible="1"
+       h="487"
+       visible="0"
        state="2"
        placement="5">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
-         value="1153.74" />
+         value="815.114" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/mary/Downloads"
+       path="/home/mary/imagedump/vector"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -716,17 +720,17 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/mary/Downloads/" />
+       path="/home/mary/imagedump/vector/" />
     <group
        id="import"
        enable_preview="1"
-       path="/home/mary/Downloads/"
+       path="/tmp/"
        ask="1"
        ask_svg="1"
        link="link"
        scale="auto"
        forcexdpi="0"
-       import_mode_svg="include" />
+       import_mode_svg="link" />
     <group
        id="debug"
        redirect="0" />
@@ -760,8 +764,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="234"
-       h="141" />
+       w="397"
+       h="483" />
     <group
        id="extensioneditor" />
     <group
@@ -832,7 +836,7 @@
      onimport="0">
     <group
        id="renderingcache"
-       size="64" />
+       size="512" />
     <group
        id="useoldpdfexporter"
        value="0" />
@@ -1130,10 +1134,16 @@
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.resolution="96"
      org.inkscape.output.pdf.cairorenderer.bleed="0"
-     org.inkscape.input.svg.scale="auto" />
+     org.inkscape.input.svg.scale="auto"
+     org.inkscape.input.svg.import_mode_svg="link"
+     org.inkscape.output.scour_inkscape.indent="space"
+     org.inkscape.output.scour_inkscape.tab="Output"
+     org.inkscape.output.scour_inkscape.strip-xml-prolog="1"
+     org.inkscape.output.scour_inkscape.remove-metadata="1"
+     org.inkscape.output.scour_inkscape.enable-comment-stripping="1" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:'Trebuchet MS';font-family:'Trebuchet MS';fill:#f2a36b;stroke-width:2.08251969;stroke-linecap:round;font-size:26.66666667px;text-anchor:middle;text-align:center;stroke-linejoin:bevel;">
+     style="line-height:1.25;-inkscape-font-specification:Roboto;font-family:Roboto;fill:#b82b33;stroke-width:0.62362205;stroke-linecap:round;font-size:37.33333333px;text-anchor:middle;text-align:center;stroke-linejoin:bevel;opacity:0.4">
     <group
        width="703"
        height="480"
