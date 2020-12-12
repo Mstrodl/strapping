@@ -34,7 +34,6 @@ TabBox=false
 TabBoxAlternative=false
 
 [Effect-PresentWindows]
-BorderActivate=9
 BorderActivateAll=9
 BorderActivateClass=9
 

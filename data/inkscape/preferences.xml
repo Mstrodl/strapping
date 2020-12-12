@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="2748.12"
-         height="449.377"
+         width="797.962"
+         height="1120.99"
          rx="0"
          ry="0" />
       <eventcontext
@@ -172,8 +172,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="2.75655"
-         ry="4.78322" />
+         rx="107.501"
+         ry="107.501" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -362,8 +362,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="399.713"
-       y="321.443"
+       x="2.37547"
+       y="355.392"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -559,7 +559,7 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="2" />
   <group
      id="embedded">
     <group
@@ -585,11 +585,11 @@
        page="0"
        x="0"
        y="0"
-       w="397"
-       h="553"
-       visible="1"
+       w="326"
+       h="549"
+       visible="0"
        state="2"
-       placement="1" />
+       placement="5" />
     <group
        id="filtereffects" />
     <group
@@ -607,11 +607,12 @@
        align-to="1"
        x="0"
        y="0"
-       w="328"
-       h="487"
+       w="326"
+       h="444"
        visible="0"
        state="2"
-       placement="5" />
+       placement="5"
+       sel-as-groups="1" />
     <group
        id="xml"
        panel_size="1"
@@ -657,11 +658,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="48"
+       page="23"
        x="0"
        y="29"
-       w="1366"
-       h="703"
+       w="910"
+       h="459"
        visible="0"
        placement="1" />
     <group
@@ -693,8 +694,8 @@
        x="0"
        y="0"
        w="397"
-       h="487"
-       visible="0"
+       h="483"
+       visible="1"
        state="2"
        placement="5">
       <group
@@ -702,7 +703,7 @@
          value="page" />
       <group
          id="defaultxdpi"
-         value="815.114" />
+         value="70" />
     </group>
     <group
        id="save_as"
@@ -727,10 +728,10 @@
        path="/tmp/"
        ask="1"
        ask_svg="1"
-       link="link"
+       link="embed"
        scale="auto"
        forcexdpi="0"
-       import_mode_svg="link" />
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -804,8 +805,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="327"
-       h="6">
+       w="230"
+       h="160"
+       visible="0"
+       state="2"
+       placement="1">
       <group
          id=""
          panel_size="0" />
@@ -1130,25 +1134,26 @@
      org.ekips.output.hpgl.toolOffset="0.25"
      org.ekips.output.hpgl.flat="1.2"
      org.ekips.filter.extractimage.filepath="/home/mary/RemoteLearning/Chemistry/grass"
-     org.inkscape.input.gdkpixbuf.png.link="link"
+     org.inkscape.input.gdkpixbuf.png.link="embed"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.resolution="96"
      org.inkscape.output.pdf.cairorenderer.bleed="0"
      org.inkscape.input.svg.scale="auto"
-     org.inkscape.input.svg.import_mode_svg="link"
+     org.inkscape.input.svg.import_mode_svg="include"
      org.inkscape.output.scour_inkscape.indent="space"
      org.inkscape.output.scour_inkscape.tab="Output"
      org.inkscape.output.scour_inkscape.strip-xml-prolog="1"
      org.inkscape.output.scour_inkscape.remove-metadata="1"
-     org.inkscape.output.scour_inkscape.enable-comment-stripping="1" />
+     org.inkscape.output.scour_inkscape.enable-comment-stripping="1"
+     org.inkscape.filter.extract_image.filepath="/home/mary/Pictures/defuse-bg.png" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:Roboto;font-family:Roboto;fill:#b82b33;stroke-width:0.62362205;stroke-linecap:round;font-size:37.33333333px;text-anchor:middle;text-align:center;stroke-linejoin:bevel;opacity:0.4">
+     style="line-height:1.25;-inkscape-font-specification:'Liberation Sans Bold';font-family:'Liberation Sans';fill:#535353;stroke-width:5.75622047;stroke-linecap:round;font-size:42.66666667px;text-anchor:middle;text-align:center;stroke-linejoin:bevel;font-weight:bold">
     <group
-       width="703"
+       width="787"
        height="480"
-       x="289"
-       y="333"
+       x="0"
+       y="0"
        fullscreen="0"
        id="geometry"
        maximized="1" />

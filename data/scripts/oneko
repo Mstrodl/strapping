@@ -1,0 +1,3 @@
+#!/bin/sh
+
+oneko -tofocus -position +0+30
