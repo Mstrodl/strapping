@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <inkscape
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   version="1"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1">
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
   <group
      id="window">
     <group
@@ -109,12 +109,15 @@
      id="template">
     <sodipodi:namedview
        id="base"
-       pagecolor="#ffffff"
-       bordercolor="#666666"
-       borderopacity="1.0"
+       pagecolor="#505050"
+       pageopacity="0"
+       pagecheckerboard="1"
+       bordercolor="#ffffff"
+       borderopacity="1"
        objecttolerance="10.0"
        gridtolerance="10.0"
        guidetolerance="10.0"
+       pageshadow="0"
        inkscape:pageopacity="0.0"
        inkscape:pageshadow="2"
        inkscape:window-width="640"
@@ -132,8 +135,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="797.962"
-         height="1120.99"
+         width="1390.79"
+         height="367.98"
          rx="0"
          ry="0" />
       <eventcontext
@@ -172,17 +175,17 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="107.501"
-         ry="107.501" />
+         rx="293.95"
+         ry="293.95" />
       <eventcontext
          id="star"
          magnitude="3"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.560201"
+         proportion="0.452772"
          rounded="0"
          randomized="0"
-         isflatsided="0" />
+         isflatsided="1" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -225,6 +228,8 @@
        usepressure="1"
        usetilt="0"
        keep_selected="1"
+       abs_width="1"
+       unit="mm"
        tremor="0"
        wiggle="0">
       <group
@@ -342,7 +347,7 @@
        use_svg2="1"
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1"
-       align_mode="1">
+       align_mode="2">
       <group
          id="lineheight"
          display_unit="0" />
@@ -362,8 +367,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="2.37547"
-       y="355.392"
+       x="15.01"
+       y="6.48842"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -438,7 +443,16 @@
        offset="5"
        unit="px"
        measure-start="0,0"
-       measure-end="0,0" />
+       measure-end="0,0">
+      <group
+         id="measure-start"
+         x="238.325"
+         y="178.715" />
+      <group
+         id="measure-end"
+         x="11.5363"
+         y="173.207" />
+    </group>
   </group>
   <group
      id="palette">
@@ -559,7 +573,7 @@
   </group>
   <group
      id="colorselector"
-     page="2" />
+     page="0" />
   <group
      id="embedded">
     <group
@@ -582,14 +596,14 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="0"
+       page="1"
        x="0"
        y="0"
-       w="326"
-       h="549"
+       w="397"
+       h="475"
        visible="0"
        state="2"
-       placement="5" />
+       placement="2" />
     <group
        id="filtereffects" />
     <group
@@ -607,14 +621,16 @@
        align-to="1"
        x="0"
        y="0"
-       w="326"
-       h="444"
+       w="328"
+       h="472"
        visible="0"
        state="2"
        placement="5"
        sel-as-groups="1" />
     <group
        id="xml"
+       h="260"
+       w="320"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
@@ -622,8 +638,6 @@
        panel_border="0"
        x="0"
        y="0"
-       w="320"
-       h="260"
        panedpos="135"
        visible="0"
        state="2"
@@ -644,10 +658,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="730"
-       y="0"
+       x="221"
+       y="36"
        w="636"
-       h="656"
+       h="732"
        visible="0"
        placement="1" />
     <group
@@ -694,23 +708,23 @@
        x="0"
        y="0"
        w="397"
-       h="483"
+       h="479"
        visible="1"
        state="2"
-       placement="5">
+       placement="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
-         value="70" />
+         value="646.615" />
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.svg.plain"
        append_extension="1"
        enable_preview="1"
-       path="/home/mary/imagedump/vector"
+       path="/home/mary/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -721,14 +735,14 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/mary/imagedump/vector/" />
+       path="/tmp/" />
     <group
        id="import"
        enable_preview="1"
        path="/tmp/"
        ask="1"
        ask_svg="1"
-       link="embed"
+       link="link"
        scale="auto"
        forcexdpi="0"
        import_mode_svg="include" />
@@ -758,6 +772,8 @@
     <group
        id="layers"
        maxDepth="20"
+       w="328"
+       h="323"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
@@ -765,8 +781,9 @@
        panel_border="0"
        x="0"
        y="0"
-       w="397"
-       h="483" />
+       visible="0"
+       state="2"
+       placement="5" />
     <group
        id="extensioneditor" />
     <group
@@ -1121,6 +1138,17 @@
     <group
        id="font"
        unitType="2" />
+    <group
+       id="middlemousezoom"
+       value="1" />
+    <group
+       id="boot"
+       canvas="dark-check"
+       enabled="0">
+      <group
+         id="shown"
+         ver1.1="1" />
+    </group>
   </group>
   <group
      id="extensions"
@@ -1134,7 +1162,7 @@
      org.ekips.output.hpgl.toolOffset="0.25"
      org.ekips.output.hpgl.flat="1.2"
      org.ekips.filter.extractimage.filepath="/home/mary/RemoteLearning/Chemistry/grass"
-     org.inkscape.input.gdkpixbuf.png.link="embed"
+     org.inkscape.input.gdkpixbuf.png.link="link"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.resolution="96"
      org.inkscape.output.pdf.cairorenderer.bleed="0"
@@ -1145,18 +1173,20 @@
      org.inkscape.output.scour_inkscape.strip-xml-prolog="1"
      org.inkscape.output.scour_inkscape.remove-metadata="1"
      org.inkscape.output.scour_inkscape.enable-comment-stripping="1"
-     org.inkscape.filter.extract_image.filepath="/home/mary/Pictures/defuse-bg.png" />
+     org.inkscape.filter.extract_image.filepath="/home/mary/Pictures/defuse-bg.png"
+     org.inkscape.effect.filter.ImageBlur.blend="normal"
+     org.inkscape.effect.filter.ImageBlur.__live_effect__="0" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:'Liberation Sans Bold';font-family:'Liberation Sans';fill:#535353;stroke-width:5.75622047;stroke-linecap:round;font-size:42.66666667px;text-anchor:middle;text-align:center;stroke-linejoin:bevel;font-weight:bold">
+     style="line-height:1.25;-inkscape-font-specification:'Khula Semi-Bold';font-family:Khula;fill:#68437c;stroke-width:6.67086614;font-size:5.33333333px;text-anchor:end;text-align:end;paint-order:markers stroke fill;font-weight:600;stop-color:#000000;opacity:0.5;stroke-linecap:round;stroke:#698d92">
     <group
-       width="787"
-       height="480"
-       x="0"
-       y="0"
+       width="910"
+       height="459"
+       x="456"
+       y="244"
+       maximized="1"
        fullscreen="0"
-       id="geometry"
-       maximized="1" />
+       id="geometry" />
     <group
        id="XYfront"
        style="fill:#2ab5c6;stroke-width:1.0015748;stroke:#000000" />
@@ -1259,9 +1289,15 @@
      menuIcons_objects="0"
      menuIcons_layers="0"
      menuIcons_canvas="0"
-     iconTheme="breeze-dark"
      gtkTheme="Breeze-Dark"
      defaultIconTheme="breeze-dark"
      defaultTheme="Breeze-Dark"
-     id="theme" />
+     id="theme"
+     defaultPreferDarkTheme="1"
+     defaultGtkTheme="Breeze-Dark"
+     preferDarkTheme="1"
+     darkTheme="1" />
+  <group
+     id="live_effects"
+     flattening="0" />
 </inkscape>
