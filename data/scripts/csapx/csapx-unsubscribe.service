@@ -1,0 +1,6 @@
+[Unit]
+Description=Unsubscribe from CSAPX Github Notifications
+
+[Service]
+Type=simple
+ExecStart=%h/projects/strapping/data/scripts/csapx/csapx-unsubscribe

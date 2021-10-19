@@ -135,8 +135,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1390.79"
-         height="367.98"
+         width="68.7813"
+         height="78.1885"
          rx="0"
          ry="0" />
       <eventcontext
@@ -175,8 +175,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="293.95"
-         ry="293.95" />
+         rx="19.3699"
+         ry="79.8941" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -367,8 +367,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="15.01"
-       y="6.48842"
+       x="113.748"
+       y="148.468"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -446,12 +446,12 @@
        measure-end="0,0">
       <group
          id="measure-start"
-         x="238.325"
-         y="178.715" />
+         x="110.994"
+         y="147.829" />
       <group
          id="measure-end"
-         x="11.5363"
-         y="173.207" />
+         x="88.782"
+         y="147.829" />
     </group>
   </group>
   <group
@@ -618,7 +618,7 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       align-to="1"
+       align-to="4"
        x="0"
        y="0"
        w="328"
@@ -714,7 +714,7 @@
        placement="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="custom" />
       <group
          id="defaultxdpi"
          value="646.615" />
@@ -724,7 +724,7 @@
        default="org.inkscape.output.svg.plain"
        append_extension="1"
        enable_preview="1"
-       path="/home/mary/Downloads"
+       path="/tmp"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -1178,7 +1178,7 @@
      org.inkscape.effect.filter.ImageBlur.__live_effect__="0" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:'Khula Semi-Bold';font-family:Khula;fill:#68437c;stroke-width:6.67086614;font-size:5.33333333px;text-anchor:end;text-align:end;paint-order:markers stroke fill;font-weight:600;stop-color:#000000;opacity:0.5;stroke-linecap:round;stroke:#698d92">
+     style="line-height:1.25;-inkscape-font-specification:'Khula Semi-Bold';font-family:Khula;fill:#d40000;stroke-width:6.67086614;font-size:5.33333333px;text-anchor:end;text-align:end;paint-order:markers stroke fill;font-weight:600;stop-color:#000000;stroke-linecap:round">
     <group
        width="910"
        height="459"
@@ -1290,7 +1290,7 @@
      menuIcons_layers="0"
      menuIcons_canvas="0"
      gtkTheme="Breeze-Dark"
-     defaultIconTheme="breeze-dark"
+     defaultIconTheme="breeze"
      defaultTheme="Breeze-Dark"
      id="theme"
      defaultPreferDarkTheme="1"

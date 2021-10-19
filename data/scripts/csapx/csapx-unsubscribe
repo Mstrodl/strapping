@@ -1,0 +1,2 @@
+#!/bin/bash
+hub api --paginate user/subscriptions | jq -c 'map(select(.full_name | contains("CSCI-140-242-CSAPX/"))) | map_values(.subscription_url) | .[]' | xargs -L 1 hub api -X DELETE
