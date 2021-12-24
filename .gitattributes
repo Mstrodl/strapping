@@ -8,3 +8,5 @@ data/kde/plasmanotifyrc filter=git-crypt diff=git-crypt
 data/backups/* filter=git-crypt diff=git-crypt
 # Blocklists...
 data/hh2/config.json filter=git-crypt diff=git-crypt
+# Email... :/
+data/scripts/mkcs1 filter=git-crypt diff=git-crypt

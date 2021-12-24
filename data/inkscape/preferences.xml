@@ -175,8 +175,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="19.3699"
-         ry="79.8941" />
+         rx="194.358"
+         ry="194.358" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -347,7 +347,7 @@
        use_svg2="1"
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1"
-       align_mode="2">
+       align_mode="1">
       <group
          id="lineheight"
          display_unit="0" />
@@ -714,17 +714,17 @@
        placement="1">
       <group
          id="exportarea"
-         value="custom" />
+         value="selection" />
       <group
          id="defaultxdpi"
          value="646.615" />
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.plain"
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/tmp"
+       path="/home/mary/imagedump/vector"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -735,7 +735,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/tmp/" />
+       path="/home/mary/imagedump/vector/" />
     <group
        id="import"
        enable_preview="1"
@@ -1175,10 +1175,17 @@
      org.inkscape.output.scour_inkscape.enable-comment-stripping="1"
      org.inkscape.filter.extract_image.filepath="/home/mary/Pictures/defuse-bg.png"
      org.inkscape.effect.filter.ImageBlur.blend="normal"
-     org.inkscape.effect.filter.ImageBlur.__live_effect__="0" />
+     org.inkscape.effect.filter.ImageBlur.__live_effect__="0"
+     org.inkscape.effect.filter.ColorDropShadow.type="outer"
+     org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0"
+     org.inkscape.effect.filter.ColorDropShadow.blur="0.575957"
+     org.inkscape.effect.filter.ColorDropShadow.xoffset="1.2"
+     org.inkscape.effect.filter.ColorDropShadow.yoffset="1.2"
+     org.inkscape.effect.filter.ColorDropShadow.tab="coltab"
+     org.inkscape.effect.filter.ColorDropShadow.color="204" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:'Khula Semi-Bold';font-family:Khula;fill:#d40000;stroke-width:6.67086614;font-size:5.33333333px;text-anchor:end;text-align:end;paint-order:markers stroke fill;font-weight:600;stop-color:#000000;stroke-linecap:round">
+     style="line-height:1.25;-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;fill:#ffffff;stroke-width:6.67086614;font-size:14.66666667px;text-anchor:middle;text-align:center;paint-order:markers stroke fill;font-weight:bold;stop-color:#000000;stroke-linecap:round">
     <group
        width="910"
        height="459"

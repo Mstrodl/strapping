@@ -49,8 +49,9 @@ TopRight=None
 
 [NightColor]
 Active=true
-LatitudeAuto=42.5271
-LongitudeAuto=-73.6118
+LatitudeAuto=42.3996
+LongitudeAuto=-71.1246
+NightTemperature=2700
 
 [Plugins]
 highlightwindowEnabled=true
@@ -90,4 +91,4 @@ ElectricBorderTiling=true
 ElectricBorders=0
 
 [org.kde.kdecoration2]
-ButtonsOnRight=IAXH
+ButtonsOnRight=NIAXH

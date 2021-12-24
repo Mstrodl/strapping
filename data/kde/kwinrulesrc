@@ -149,4 +149,17 @@ wmclass=gmod
 wmclassmatch=1
 
 [General]
-count=13
+count=14
+rules=eef6dd99-55c4-4016-9c9c-b3f50df9263f,1,2,3,4,5,6,7,8,9,10,11,12,13
+
+[eef6dd99-55c4-4016-9c9c-b3f50df9263f]
+Description=Application settings for cantata
+clientmachine=localhost
+skippager=true
+skippagerrule=2
+skipswitcher=true
+skipswitcherrule=2
+skiptaskbar=true
+skiptaskbarrule=2
+wmclass=cantata
+wmclassmatch=1
