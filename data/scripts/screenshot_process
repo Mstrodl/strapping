@@ -1,0 +1,6 @@
+cd ~/Screenshots
+for f in *.png; do
+  if ! [ -f "${f}.txt" ]; then
+      tesseract "$f" "$f"
+  fi
+done
