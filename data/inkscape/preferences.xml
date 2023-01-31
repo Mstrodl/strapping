@@ -135,8 +135,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="23136"
-         height="4949.67"
+         width="457.901938130542"
+         height="698.707804041585"
          rx="0"
          ry="0" />
       <eventcontext
@@ -336,7 +336,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -367,8 +367,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="2905.74"
-       y="1274.92"
+       x="362.745565"
+       y="178.0516"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -446,13 +446,20 @@
        measure-end="0,0">
       <group
          id="measure-start"
-         x="110.994"
-         y="147.829" />
+         x="651.978209209913"
+         y="360.423960287253" />
       <group
          id="measure-end"
-         x="88.782"
-         y="147.829" />
+         x="651.978209209912"
+         y="384.27318573794" />
     </group>
+    <eventcontext
+       id="marker"
+       selcue="1"
+       gradientdrag="1" />
+    <group
+       id="geometric"
+       mode="drag" />
   </group>
   <group
      id="palette">
@@ -573,7 +580,8 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="0"
+     switcher="1" />
   <group
      id="embedded">
     <group
@@ -596,7 +604,7 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="2"
+       page="1"
        x="0"
        y="0"
        w="397"
@@ -626,7 +634,8 @@
        visible="0"
        state="2"
        placement="5"
-       sel-as-groups="1" />
+       sel-as-groups="0"
+       objects-align-to="page" />
     <group
        id="xml"
        h="260"
@@ -711,13 +720,20 @@
        h="479"
        visible="1"
        state="2"
-       placement="1">
+       placement="1"
+       defaultopts="1">
       <group
          id="exportarea"
          value="selection" />
       <group
          id="defaultxdpi"
          value="646.615" />
+      <group
+         id="batchexportarea"
+         value="layer" />
+      <group
+         id="defaultdpi"
+         value="600" />
     </group>
     <group
        id="save_as"
@@ -735,14 +751,14 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/mary/Downloads/" />
+       path="/home/mary/projects/elixire-frontend/src/images/cp/" />
     <group
        id="import"
        enable_preview="1"
-       path="/tmp/"
+       path="/home/mary/Downloads/"
        ask="1"
        ask_svg="1"
-       link="link"
+       link="embed"
        scale="auto"
        forcexdpi="0"
        import_mode_svg="include" />
@@ -753,7 +769,8 @@
        id="clonetiler"
        dotrace="0" />
     <group
-       id="gridtiler" />
+       id="gridtiler"
+       SpacingType="20" />
     <group
        id="extension-error"
        show-on-startup="0" />
@@ -852,6 +869,7 @@
   </group>
   <group
      id="options"
+     rotationlock="1"
      dpifixbackup="1"
      dpiupdatemethod="0"
      onimport="0">
@@ -1027,7 +1045,8 @@
     <group
        id="maskobject"
        topmost="1"
-       remove="1" />
+       remove="1"
+       grouping="0" />
     <group
        id="blurquality"
        value="0" />
@@ -1137,12 +1156,13 @@
        scale="1" />
     <group
        id="font"
-       unitType="2" />
+       unitType="1" />
     <group
        id="middlemousezoom"
        value="1" />
     <group
        id="boot"
+       theme="colorful"
        canvas="dark-check"
        enabled="0">
       <group
@@ -1152,6 +1172,9 @@
   </group>
   <group
      id="extensions"
+     org.inkscape.output.png.inkscape.png_bitdepth="99"
+     org.inkscape.output.png.inkscape.png_compression="6"
+     org.inkscape.output.png.inkscape.png_antialias="2"
      org.ekips.output.hpgl.resolutionX="1016"
      org.ekips.output.hpgl.resolutionY="1016"
      org.ekips.output.hpgl.pen="1"
@@ -1185,7 +1208,7 @@
      org.inkscape.effect.filter.ColorDropShadow.color="204" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;fill:#252a59;stroke-width:59.96220472;font-size:14.66666667px;text-anchor:middle;text-align:center;paint-order:markers stroke fill;font-weight:bold;stop-color:#000000;stroke-linecap:round">
+     style="line-height:1.25;-inkscape-font-specification:'Helvetica Neue Light';font-family:'Helvetica Neue';fill:#ffffff;stroke-width:59.96220472;font-size:18.14px;text-anchor:middle;text-align:center;paint-order:markers stroke fill;stop-color:#000000;stroke-linecap:round;font-weight:300">
     <group
        width="910"
        height="459"
@@ -1215,11 +1238,20 @@
      id="toolbox"
      icononly="1"
      secondary="1"
+     simplesnap="1"
      small="1">
     <group
        id="tools"
        icononly="1"
-       small="0" />
+       small="0"
+       iconsize="16"
+       width="24">
+      <group
+         id="buttons" />
+    </group>
+    <group
+       id="controlbars"
+       iconsize="16" />
   </group>
   <group
      id="iconpreview"
@@ -1293,18 +1325,27 @@
      id="ui"
      language="" />
   <group
+     id="theme"
+     defaultPreferDarkTheme="1"
+     defaultIconTheme="breeze-dark"
+     defaultGtkTheme="Breeze"
+     narrowSpinButton="1"
+     preferDarkTheme="1"
+     darkTheme="1"
+     symbolicIcons="1"
+     symbolicDefaultBaseColors="1"
+     symbolicDefaultHighColors="0"
      menuIcons_objects="0"
      menuIcons_layers="0"
      menuIcons_canvas="0"
      gtkTheme="Breeze-Dark"
-     defaultIconTheme="breeze-dark"
-     defaultTheme="Breeze-Dark"
-     id="theme"
-     defaultPreferDarkTheme="1"
-     defaultGtkTheme="Breeze-Dark"
-     preferDarkTheme="1"
-     darkTheme="1" />
+     defaultTheme="Breeze-Dark" />
   <group
      id="live_effects"
      flattening="0" />
+  <group
+     id="statusbar">
+    <group
+       id="visibility" />
+  </group>
 </inkscape>

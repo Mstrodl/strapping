@@ -7,6 +7,13 @@ NumLock=2
 RepeatDelay=600
 RepeatRate=25
 
+[Libinput][1739][0][Synaptics TM3276-022]
+Enabled=false
+
+[Libinput][2][10][TPPS/2 IBM TrackPoint]
+PointerAcceleration=0.800
+
 [Mouse]
-XLbInptAccelProfileFlat=false
-XLbInptPointerAcceleration=0.6
+X11LibInputXAccelProfileFlat=true
+XLbInptAccelProfileFlat=true
+XLbInptPointerAcceleration=1
