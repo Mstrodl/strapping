@@ -165,6 +165,16 @@ types=1
 wmclass=xfreerdp
 wmclassmatch=1
 
+[58339fbf-f83e-4a64-8502-0c47d0fb438c]
+Description=Window settings for Android Emulator - Pixel_3a_API_28:5554
+clientmachine=localhost
+ignoregeometry=true
+ignoregeometryrule=6
+title=Android Emulator - Pixel_3a_API_28:5554
+titlematch=1
+types=1
+wmclassmatch=1
+
 [6]
 Description=Window settings for th08.exe
 desktopfile=chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default/chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default

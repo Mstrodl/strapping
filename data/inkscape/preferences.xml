@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <inkscape
    version="1"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
   <group
      id="window">
     <group
@@ -107,9 +106,10 @@
   </group>
   <group
      id="template">
-    <sodipodi:namedview
+    <group
        id="base"
        pagecolor="#505050"
+       deskcolor="#d1d1d1"
        pageopacity="0"
        pagecheckerboard="1"
        bordercolor="#ffffff"
@@ -212,7 +212,7 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         freehand-mode="2" />
+         freehand-mode="0" />
     </group>
     <eventcontext
        id="calligraphic"
@@ -336,7 +336,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -367,8 +367,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="362.745565"
-       y="178.0516"
+       x="433.510729606692"
+       y="248.214548123452"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -401,13 +401,17 @@
        mean="0"
        offset="100" />
     <eventcontext
-       id="gradient"
-       selcue="1" />
+       id="marker"
+       selcue="1"
+       gradientdrag="1" />
     <eventcontext
        id="mesh"
        selcue="1"
        mesh_rows="1"
        mesh_cols="1" />
+    <eventcontext
+       id="gradient"
+       selcue="1" />
     <eventcontext
        id="zoom"
        selcue="1"
@@ -418,10 +422,6 @@
        gradientdrag="1"
        pick="1"
        setalpha="1" />
-    <eventcontext
-       id="select"
-       selcue="1"
-       gradientdrag="0" />
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
@@ -454,9 +454,9 @@
          y="384.27318573794" />
     </group>
     <eventcontext
-       id="marker"
+       id="select"
        selcue="1"
-       gradientdrag="1" />
+       gradientdrag="0" />
     <group
        id="geometric"
        mode="drag" />
@@ -581,7 +581,31 @@
   <group
      id="colorselector"
      page="0"
-     switcher="1" />
+     switcher="1">
+    <group
+       id="RGB"
+       visible="1" />
+    <group
+       id="HSL"
+       visible="1" />
+    <group
+       id="CMYK"
+       visible="1" />
+    <group
+       id="HSV"
+       visible="1" />
+    <group
+       id="HSLuv"
+       visible="1" />
+    <group
+       id="OKLAB"
+       visible="1" />
+    <group
+       id="CMS"
+       visible="1" />
+    <group
+       id="OKHSL" />
+  </group>
   <group
      id="embedded">
     <group
@@ -591,7 +615,17 @@
        panel_ratio="100"
        panel_wrap="0"
        palette="Inkscape default"
-       panel_border="0" />
+       panel_border="0">
+      <group
+         id="pinned"
+         none="1"
+         rgb000000="1"
+         black="1"
+         rgb808080="1"
+         gray-50="1"
+         rgbffffff="1"
+         white="1" />
+    </group>
   </group>
   <group
      id="dialogs">
@@ -751,7 +785,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/mary/projects/elixire-frontend/src/images/cp/" />
+       path="/home/mary/projects/devin-next/assets/" />
     <group
        id="import"
        enable_preview="1"
@@ -779,7 +813,8 @@
     <group
        id="messages" />
     <group
-       id="swatches" />
+       id="swatches"
+       palette="Auto" />
     <group
        id="iconpreview" />
     <group
@@ -872,7 +907,8 @@
      rotationlock="1"
      dpifixbackup="1"
      dpiupdatemethod="0"
-     onimport="0">
+     onimport="0"
+     onungroup="0">
     <group
        id="renderingcache"
        size="512" />
@@ -925,8 +961,8 @@
        gamutcolor="#808080"
        gamutwarn="0"
        bpc="0"
-       preserveblack="0"
-       uri="" />
+       uri=""
+       preserveblack="0" />
     <group
        id="savewindowgeometry"
        value="1" />
@@ -989,16 +1025,19 @@
        id="bitmapeditor"
        value="gimp" />
     <group
-       id="bitmapautoreload"
-       value="1" />
+       id="svgeditor"
+       value="inkscape" />
     <group
-       id="dialogtype"
+       id="bitmapautoreload"
        value="1" />
     <group
        id="dock"
        cancenterdock="1"
        dockbarstyle="2"
        switcherstyle="2" />
+    <group
+       id="dialogtype"
+       value="1" />
     <group
        id="dialogsskiptaskbar"
        value="1" />
@@ -1030,6 +1069,9 @@
        pattern="1"
        gradient="1" />
     <group
+       id="dash"
+       scale="1" />
+    <group
        id="kbselection"
        inlayer="1"
        onlyvisible="1"
@@ -1038,29 +1080,23 @@
        id="selection"
        layerdeselect="1" />
     <group
-       id="createbitmap" />
-    <group
-       id="compassangledisplay"
-       value="0" />
-    <group
        id="maskobject"
        topmost="1"
        remove="1"
        grouping="0" />
     <group
-       id="blurquality"
-       value="0" />
+       id="createbitmap" />
     <group
-       id="filterquality"
-       value="1" />
+       id="compassangledisplay"
+       value="0" />
     <group
        id="showfiltersinfobox"
        value="1" />
     <group
-       id="startmode"
-       outline="0" />
+       id="middlemousezoom"
+       value="1" />
     <group
-       id="outlinemode"
+       id="blurquality"
        value="0" />
     <group
        id="ocalurl"
@@ -1072,12 +1108,56 @@
        id="ocalpassword"
        str="" />
     <group
+       id="filterquality"
+       value="1" />
+    <group
+       id="startmode"
+       outline="0" />
+    <group
+       id="outlinemode"
+       value="0" />
+    <group
        id="wireframecolors"
        onlight="255"
        ondark="4294967295"
        images="4278190335"
        clips="16711935"
        masks="65535" />
+    <group
+       id="iconrender"
+       named_nodelay="0" />
+    <group
+       id="autosave"
+       enable="1"
+       interval="1"
+       path=""
+       max="10" />
+    <group
+       id="grids"
+       no_emphasize_when_zoomedout="0">
+      <group
+         id="xy"
+         origin_x="0.0"
+         origin_y="0.0"
+         spacing_x="1.0"
+         spacing_y="1.0"
+         empspacing="5"
+         dotted="0"
+         units="px"
+         color="1061158688"
+         empcolor="1061158720" />
+      <group
+         id="axonom"
+         units="mm"
+         origin_x="0.0"
+         origin_y="0.0"
+         spacing_y="1.0"
+         angle_x="30.0"
+         angle_z="30.0"
+         empspacing="5"
+         color="1061158688"
+         empcolor="1061158720" />
+    </group>
     <group
        id="svgoutput"
        disable_optimizations="0"
@@ -1099,6 +1179,8 @@
        check_on_writing="0"
        sort_attributes="0" />
     <group
+       id="rendering" />
+    <group
        id="externalresources">
       <group
          id="xml"
@@ -1108,58 +1190,12 @@
        id="forkgradientvectors"
        value="1" />
     <group
-       id="iconrender"
-       named_nodelay="0" />
-    <group
-       id="autosave"
-       enable="1"
-       interval="1"
-       path=""
-       max="10" />
-    <group
-       id="grids"
-       no_emphasize_when_zoomedout="0">
-      <group
-         id="xy"
-         units="px"
-         origin_x="0.0"
-         origin_y="0.0"
-         spacing_x="1.0"
-         spacing_y="1.0"
-         empspacing="5"
-         dotted="0"
-         color="1061158688"
-         empcolor="1061158720" />
-      <group
-         id="axonom"
-         units="mm"
-         origin_x="0.0"
-         origin_y="0.0"
-         spacing_y="1.0"
-         angle_x="30.0"
-         angle_z="30.0"
-         empspacing="5"
-         color="1061158688"
-         empcolor="1061158720" />
-    </group>
+       id="font"
+       unitType="1" />
     <group
        id="workarounds"
        colorsontop="0"
        partialdynamic="0" />
-    <group
-       id="rendering" />
-    <group
-       id="svgeditor"
-       value="inkscape" />
-    <group
-       id="dash"
-       scale="1" />
-    <group
-       id="font"
-       unitType="1" />
-    <group
-       id="middlemousezoom"
-       value="1" />
     <group
        id="boot"
        theme="colorful"
@@ -1169,6 +1205,10 @@
          id="shown"
          ver1.1="1" />
     </group>
+    <group
+       id="threading" />
+    <group
+       id="ruler" />
   </group>
   <group
      id="extensions"
@@ -1208,12 +1248,12 @@
      org.inkscape.effect.filter.ColorDropShadow.color="204" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:'Helvetica Neue Light';font-family:'Helvetica Neue';fill:#ffffff;stroke-width:59.96220472;font-size:18.14px;text-anchor:middle;text-align:center;paint-order:markers stroke fill;stop-color:#000000;stroke-linecap:round;font-weight:300">
+     style="line-height:1.25;-inkscape-font-specification:'Helvetica Neue Light';font-family:'Helvetica Neue';fill:#f9f9f9;stroke-width:9.69448819;font-size:18.14px;text-anchor:middle;text-align:center;paint-order:markers stroke fill;stop-color:#000000;stroke-linecap:round;font-weight:300;stroke:#f9f9f9">
     <group
-       width="910"
-       height="459"
-       x="456"
-       y="244"
+       width="1575"
+       height="928"
+       x="-332"
+       y="728"
        maximized="1"
        fullscreen="0"
        id="geometry" />
@@ -1252,6 +1292,17 @@
     <group
        id="controlbars"
        iconsize="16" />
+  </group>
+  <group
+     id="statusbar">
+    <group
+       id="visibility" />
+  </group>
+  <group
+     id="debug">
+    <group
+       id="latency"
+       skew="1" />
   </group>
   <group
      id="iconpreview"
@@ -1316,19 +1367,10 @@
     </group>
   </group>
   <group
-     id="debug">
-    <group
-       id="latency"
-       skew="1" />
-  </group>
-  <group
-     id="ui"
-     language="" />
-  <group
      id="theme"
      defaultPreferDarkTheme="1"
      defaultIconTheme="breeze-dark"
-     defaultGtkTheme="Breeze"
+     defaultGtkTheme="Breeze-Dark"
      narrowSpinButton="1"
      preferDarkTheme="1"
      darkTheme="1"
@@ -1339,13 +1381,12 @@
      menuIcons_layers="0"
      menuIcons_canvas="0"
      gtkTheme="Breeze-Dark"
-     defaultTheme="Breeze-Dark" />
+     defaultTheme="Breeze-Dark"
+     syntax-color-theme="inkscape-dark" />
+  <group
+     id="ui"
+     language="" />
   <group
      id="live_effects"
      flattening="0" />
-  <group
-     id="statusbar">
-    <group
-       id="visibility" />
-  </group>
 </inkscape>

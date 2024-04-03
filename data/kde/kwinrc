@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 Backend=OpenGL
@@ -63,8 +63,8 @@ TopRight=None
 
 [NightColor]
 Active=true
-LatitudeAuto=43.0801
-LongitudeAuto=-77.6342
+LatitudeAuto=42.8608
+LongitudeAuto=-76.9915
 NightTemperature=2700
 
 [Plugins]
@@ -98,6 +98,7 @@ BorderActivate=9
 BorderAlternativeActivate=9
 DesktopMode=1
 HighlightWindows=true
+LayoutName=sidebar
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
@@ -116,6 +117,39 @@ ShowDesktopMode=0
 ShowTabBox=true
 SwitchingMode=0
 
+[Tiling]
+padding=4
+
+[Tiling][18fff05b-f667-5ba9-8f6d-f9aea2c01204]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1da4696b-1e5b-5258-a43b-bd64e07f3c76]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][638ce331-f6b3-5a82-afa6-31decd0b3afe]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][69b4198c-c5a8-5ca6-9687-4a896625a806]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6f131af8-6fdc-5da2-9811-ec3d3f3d2c94]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7364d77e-edb9-53df-8912-2be582395ce5]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][84776b4b-4ff0-5fd8-8c15-524813df37dd]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e2df6dac-b5aa-518c-aa7a-ce17c5b7dded]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
 ElectricBorderCooldown=350
 ElectricBorderCornerRatio=0.25
@@ -128,4 +162,4 @@ ElectricBorders=0
 Scale=1
 
 [org.kde.kdecoration2]
-ButtonsOnRight=NIAXH
+ButtonsOnRight=IAXH
